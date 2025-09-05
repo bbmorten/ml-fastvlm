@@ -3,7 +3,8 @@
 This is a revised version of the official repository of
 **[FastVLM: Efficient Vision Encoding for Vision Language Models](https://www.arxiv.org/abs/2412.13303). (CVPR 2025)**
 
-It is created since the original repo gave errors when running the inference app.
+- It is created since the original repo gave errors when running the inference app.
+- Single and Continuous image inputs are now supported.
 
 
 [//]: # (![FastViTHD Performance]&#40;docs/acc_vs_latency_qwen-2.png&#41;)
