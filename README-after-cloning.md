@@ -34,3 +34,21 @@ python3 predict.py --model-path checkpoints/llava-fastvithd_0.5b_stage2 \
                   --image-file "describe-images/Screenshot 2025-09-06 at 01.08.09.png" \
                   --prompt "How many sticks?. ?"
 ```
+
+## FastVLM App
+
+### Download Instructions
+
+1. Make the script executable
+
+```shell
+chmod +x app/get_pretrained_mlx_model.sh
+```
+
+2. Download FastVLM
+
+```shell
+app/get_pretrained_mlx_model.sh --model 0.5b --dest app/FastVLM/model
+```
+
+3. Open the app in Xcode, Build, and Run.
